@@ -98,18 +98,7 @@ function Navbar() {
           >
             About
           </Link>
-          <Link
-            to="/info"
-            className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-          >
-            Information
-          </Link>
-          <Link
-            to="/sections"
-            className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-          >
-            Sections
-          </Link>
+        
         </div>
       )}
     </nav>
