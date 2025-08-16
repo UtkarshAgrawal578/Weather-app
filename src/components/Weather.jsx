@@ -39,9 +39,17 @@ function Weather() {
         backgroundBlendMode: "darken",
       }}
     >
-      <h1 className="text-5xl font-extrabold mb-10 drop-shadow-[0_5px_10px_rgba(0,0,0,0.6)] tracking-wide bg-gradient-to-r from-blue-400 via-cyan-300 to-green-400 bg-clip-text text-transparent animate-pulse">
+     <h1
+  className="
+    text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 sm:mb-8 md:mb-10
+    drop-shadow-[0_5px_10px_rgba(0,0,0,0.6)] tracking-wide
+    bg-gradient-to-r from-blue-400 via-cyan-300 to-green-400
+    bg-clip-text text-transparent animate-pulse text-center px-2
+  "
+>
   🌤 Current Weather Conditions
 </h1>
+
 
       <div className="mb-12 w-full flex justify-center">
         <input
