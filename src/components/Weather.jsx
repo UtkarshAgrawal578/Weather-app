@@ -7,7 +7,7 @@ function Weather() {
 
    const fetchMoreData = async (clearFirst = false) => {
     try {
-      const url = `http://api.weatherapi.com/v1/current.json?key=9026220a554a43f1bbc172050250908&q=${location}&aqi=yes`;
+      const url = `https://api.weatherapi.com/v1/current.json?key=9026220a554a43f1bbc172050250908&q=${location}&aqi=yes`;
       let data = await fetch(url);
       let parsedData = await data.json();
 
